@@ -1,6 +1,6 @@
 <?php
 
-$dotenv = parse_ini_file('.env');
+$dotenv = parse_ini_file(".env");
 
 foreach ($dotenv as $key => $value) {
     putenv("$key=$value");

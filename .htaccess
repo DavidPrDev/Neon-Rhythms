@@ -1,6 +1,5 @@
 RewriteEngine On
 
-
 RewriteRule ^inicio$ index.php
 RewriteRule ^play$ index.php?controller=play&action=index
 RewriteRule ^sobre-neon-rhythms$ index.php?controller=about&action=index
