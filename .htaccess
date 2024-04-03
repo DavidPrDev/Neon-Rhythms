@@ -1,0 +1,14 @@
+RewriteEngine On
+
+
+RewriteRule ^inicio$ index.php
+RewriteRule ^play$ index.php?controller=play&action=index
+RewriteRule ^sobre-neon-rhythms$ index.php?controller=about&action=index
+
+
+ErrorDocument 404 /neon-rhythms/404.php
+
+# Redirigir cualquier otra solicitud a 404.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ 404.php [L]
