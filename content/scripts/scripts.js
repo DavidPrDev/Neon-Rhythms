@@ -106,7 +106,6 @@ window.addEventListener('DOMContentLoaded',function()
       { tiempo: 12.4, posicion: "15", tipo: 'a' },
       { tiempo: 12.8, posicion: "39", tipo: 's' },
       { tiempo: 13.2, posicion: "66", tipo: 'd' },
-      // Continuación de la secuencia
       { tiempo: 14.0, posicion: "39", tipo: 's' },
       { tiempo: 15.0, posicion: "66", tipo: 'd' },
       { tiempo: 16.0, posicion: "15", tipo: 'a' },
@@ -163,51 +162,49 @@ window.addEventListener('DOMContentLoaded',function()
       { tiempo: 40.2, posicion: "15", tipo: 'a' },
       { tiempo: 40.7, posicion: "39", tipo: 's' },
       { tiempo: 41.2, posicion: "66", tipo: 'd' },
-      // Puedes seguir agregando más notas según sea necesario
-      { tiempo: 42, posicion: "15", tipo: 'a' },  // Incremento: N/A (Primera nota)
-      { tiempo: 43.7, posicion: "15", tipo: 'a' },  // Incremento: 1.7 segundos
-      { tiempo: 45.3, posicion: "15", tipo: 'a' },  // Incremento: 1.6 segundos
-      { tiempo: 46.9, posicion: "15", tipo: 'a' },  // Incremento: 1.6 segundos
-      { tiempo: 48.9, posicion: "39", tipo: 's' },  // Incremento: 1.8 segundos
-      { tiempo: 50.6, posicion: "66", tipo: 'd' },  // Incremento: 1.7 segundos
-      { tiempo: 51.7, posicion: "66", tipo: 'd' }, // Incremento: 1.1 segundos
-      { tiempo: 52.7, posicion: "66", tipo: 'd' }, // Incremento: 1.0 segundos
-      { tiempo: 53.1, posicion: "39", tipo: 's' },  // Incremento: 0.4 segundos
-      { tiempo: 53.5, posicion: "15", tipo: 'a' }, // Incremento: 0.4 segundos
-      { tiempo: 53.9, posicion: "39", tipo: 's' }, // Incremento: 0.4 segundos
-      { tiempo: 54.3, posicion: "66", tipo: 'd' }, // Incremento: 0.4 segundos
+      
+      { tiempo: 42, posicion: "15", tipo: 'a' },  
+      { tiempo: 43.7, posicion: "15", tipo: 'a' }, 
+      { tiempo: 45.3, posicion: "15", tipo: 'a' },  
+      { tiempo: 46.9, posicion: "15", tipo: 'a' }, 
+      { tiempo: 48.9, posicion: "39", tipo: 's' }, 
+      { tiempo: 50.6, posicion: "66", tipo: 'd' },  
+      { tiempo: 51.7, posicion: "66", tipo: 'd' }, 
+      { tiempo: 52.7, posicion: "66", tipo: 'd' }, 
+      { tiempo: 53.1, posicion: "39", tipo: 's' },  
+      { tiempo: 53.5, posicion: "15", tipo: 'a' },
+      { tiempo: 54.3, posicion: "66", tipo: 'd' },
 
-      { tiempo: 55, posicion: "15", tipo: 'a' },     // Incremento: N/A (Primera nota)
-      { tiempo: 55.5, posicion: "39", tipo: 's' },   // Incremento: 0.5 segundos
-      { tiempo: 56, posicion: "66", tipo: 'd' },     // Incremento: 0.5 segundos
+      { tiempo: 55, posicion: "15", tipo: 'a' },    
+      { tiempo: 55.5, posicion: "39", tipo: 's' },   
+      { tiempo: 56, posicion: "66", tipo: 'd' },   
+      { tiempo: 57, posicion: "15", tipo: 'a' },    
+      { tiempo: 57.6, posicion: "66", tipo: 'd' },   
+      { tiempo: 58.2, posicion: "15", tipo: 'a' },   
+      { tiempo: 58.8, posicion: "66", tipo: 'd' },  
+      { tiempo: 59.4, posicion: "15", tipo: 'a' },   
+      { tiempo: 60, posicion: "66", tipo: 'd' },     
+      { tiempo: 60.6, posicion: "15", tipo: 'a' },  
+      { tiempo: 61.2, posicion: "66", tipo: 'd' },   
 
-      { tiempo: 57, posicion: "15", tipo: 'a' },     // Incremento: 1.0 segundos
-      { tiempo: 57.6, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
-      { tiempo: 58.2, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 58.8, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
-      { tiempo: 59.4, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 60, posicion: "66", tipo: 'd' },     // Incremento: 0.6 segundos
-      { tiempo: 60.6, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 61.2, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
+      { tiempo: 61.8, posicion: "15", tipo: 'a' },  
+      { tiempo: 62.4, posicion: "39", tipo: 's' },  
+      { tiempo: 63, posicion: "66", tipo: 'd' },     
 
-      { tiempo: 61.8, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 62.4, posicion: "39", tipo: 's' },   // Incremento: 0.6 segundos
-      { tiempo: 63, posicion: "66", tipo: 'd' },     // Incremento: 0.6 segundos
-
-      { tiempo: 63.6, posicion: "15", tipo: 'a' },     // Incremento: 0.0 segundos (Repetición de tiempo)
-      { tiempo: 63.9, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
-      { tiempo: 64.5, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 65.1, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
-      { tiempo: 65.7, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 66.3, posicion: "66", tipo: 'd' },     // Incremento: 0.6 segundos
-      { tiempo: 66.9, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
+      { tiempo: 63.6, posicion: "15", tipo: 'a' },     
+      { tiempo: 63.9, posicion: "66", tipo: 'd' },   
+      { tiempo: 64.5, posicion: "15", tipo: 'a' },  
+      { tiempo: 65.1, posicion: "66", tipo: 'd' },   
+      { tiempo: 65.7, posicion: "15", tipo: 'a' },   
+      { tiempo: 66.3, posicion: "66", tipo: 'd' },    
+      { tiempo: 66.9, posicion: "15", tipo: 'a' },  
       { tiempo: 67.5, posicion: "66", tipo: 'd' }, 
-      { tiempo: 68.1, posicion: "66", tipo: 'd' },     // Incremento: 0.6 segundos
+      { tiempo: 68.1, posicion: "66", tipo: 'd' },     
       { tiempo: 68.7, posicion: "15", tipo: 'a' },
 
-      { tiempo: 69.1, posicion: "15", tipo: 'a' },   // Incremento: 0.6 segundos
-      { tiempo: 69.5, posicion: "39", tipo: 's' },   // Incremento: 0.6 segundos
-      { tiempo: 69.9, posicion: "66", tipo: 'd' },   // Incremento: 0.6 segundos
+      { tiempo: 69.1, posicion: "15", tipo: 'a' },   
+      { tiempo: 69.5, posicion: "39", tipo: 's' }, 
+      { tiempo: 69.9, posicion: "66", tipo: 'd' },  
   ];
 
   let audioGame = $("#sound")[0];
@@ -236,10 +233,8 @@ window.addEventListener('DOMContentLoaded',function()
     btnAceptar.id = "aceptarTut";
     btnAceptar.textContent = "Si";
     
-    // Agrega el botón "Si" al contenedor accpTut
     accpTut.appendChild(btnAceptar);
     
-    // Crea el botón "No"
     let btnCancelar = document.createElement("button");
     btnCancelar.type = "button";
     btnCancelar.className = "btn btn-secondary";
@@ -250,7 +245,6 @@ window.addEventListener('DOMContentLoaded',function()
     // Agrega el botón "No" al contenedor noTut
     noTut.appendChild(btnCancelar);
     
-    // Muestra el modal
     miModal.show();
 
     btnAceptar.addEventListener('click', function(){
@@ -266,7 +260,7 @@ window.addEventListener('DOMContentLoaded',function()
             if (!response.ok) {
                 throw new Error('Error en la solicitud. Estado: ' + response.status + ' Mensaje: ' + response.statusText);
             }
-            return response.text(); // Si esperas HTML como respuesta
+            return response.text();
         })
         .then(htmlResponse => {
          
@@ -298,7 +292,6 @@ function iniciarJuego(){
   context = new (window.AudioContext || window.webkitAudioContext)();
   audioGame = new Audio('content/source/media/SergeQuadrado-DemonsFree.mp3');
   audioGame.volume=0.2;
-  // Escuchar el evento 'canplaythrough' en lugar de 'canplay' para asegurarse de que se pueda reproducir sin problemas
   audioGame.addEventListener('canplaythrough', function () {
       iniciarAparicionBolitas();
 
@@ -311,7 +304,6 @@ function iniciarJuego(){
 
   document.getElementById('play').classList.add('disabled');
   
-  //evento para detectar fin cancion y pasar a introduccir nick
   audioGame.addEventListener('ended', function () {
     
     document.getElementById('tituloModal').innerHTML = "Introducce 3 letras para el ranking";
@@ -361,11 +353,9 @@ function iniciarJuego(){
       newScore>score3 || 
       newScore>score4||
       newScore>score5){
-        // Definir los parámetros de la solicitud POST
   var parametros = 'score=' + parseInt(newScore) + '&user=' + iniciales.value;
 
-  // Configurar la solicitud con fetch 
- //para entorno local wifi fetch('http://192.168.0.27/projects/Neon-Rhythms/ajax/updateScore.php', 
+
     fetch('http://192.168.0.27/projects/Neon-Rhythms/ajax/updateScore.php', {
       method: 'POST',
       headers: {
@@ -398,7 +388,6 @@ function iniciarJuego(){
       let bodyCnt = "Posicion  " + ranking + " 👌";
       animarModal(bodyCnt, "!Enhorabuena estas en el <b id='rnkTtl'>Ranking!</b>", btnAccept = null, btnCancel = null)
       
-      // Ahora puedes utilizar htmlTable sin problemas
       setTimeout(() => {
           tRank.innerHTML = htmlTable;
       }, 700);
@@ -428,7 +417,6 @@ function iniciarJuego(){
 // Función para iniciar la aparición de las bolitas
 function iniciarAparicionBolitas() {
   audioGame.play();
-  // Iniciar el seguimiento del tiempo de audio
   startTime = context.currentTime;
   audioGame.addEventListener('timeupdate', function () {
     let currentTime = audioGame.currentTime;
@@ -450,15 +438,12 @@ function iniciarAparicionBolitas() {
 
   document.addEventListener("keydown", function(event) {
     if (event.repeat) {
-      // Ignorar eventos 'keydown' repetidos
       return;
     }
-    // Verifica si se presionó la tecla "A" (código de tecla 65) y si hay elementos .keyContainer en el DOM
     if ((event.key === "a" || event.key === "s" || event.key === "d") && cont==1 ) {
 
       const saltarin = $("#saltarin");
 
-      // Quita y luego agrega la clase de animación para reiniciarla
       saltarin.removeClass('saltarin');
       void saltarin.width();
       saltarin.addClass('saltarin');
@@ -467,10 +452,8 @@ function iniciarAparicionBolitas() {
       sound.play();
       sound.volume=0.1;
       const firstContainer = $(".img").first();
-      //proteccion para cuando la imagen no esta en la zona
       if (firstContainer.length > 0) {
         var tipo = firstContainer.data('tipo');
-        // Verifica si la imagen está en la posición final y en el tramo específico antes de eliminarla y sumar un punto
         const containerBottom = firstContainer.offset().top + firstContainer.height();
         const gameBottom = $("#mainGame").offset().top + $("#mainGame").height();
         if (containerBottom >= gameBottom -40) {
@@ -478,18 +461,16 @@ function iniciarAparicionBolitas() {
           if(tipo==event.key){
             puntos++;
             let puntosFormateador=(puntos<10 ? "0"+puntos : puntos);
-            $("#contador").html("score:"+puntosFormateador); // Actualiza el contador en tiempo real
+            $("#contador").html("score:"+puntosFormateador);
 
           mainGame.css("border-bottom-color", "green");
           mainGame.css("box-shadow", "0 0 10px rgba(0, 255, 0, 0.5), 0 0 15px rgba(0, 255, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.5), 0 0 30px rgba(0, 255, 0, 0.5)");
           saltarin.css("background-color","green")
           setTimeout(function() {
-            // Restaura el color del borde a su valor original después de un tiempo
             mainGame.css("border-bottom-color", "rgb(155, 155, 155)");
             mainGame.css("box-shadow","0 0 10px rgba(192, 192, 192, 0.5),0 0 15px rgba(192, 192, 192, 0.7),0 0 20px rgba(192, 192, 192, 0.9),0 0 30px rgba(192, 192, 192, 1)");
             saltarin.css("background-color","rgb(205, 220, 68)")
-          }, 300);// Cambia el color de vuelta después de 1 segundo
-          }
+          }, 300);
         }
       }
     }
@@ -519,8 +500,7 @@ function crearBolita(posicion,tipo) {
   bolita.style.animation = 'moverBolita 1.5s linear';
   
   bolita.addEventListener('animationend', function() {
-    mainGame.removeChild(bolita);  // Eliminar la bolita
-  });
+    mainGame.removeChild(bolita);  
   
 }
 function simularPulsacionTecla(tecla) {
@@ -532,7 +512,6 @@ function hidDiv() {
   const miDiv = document.getElementById('tablaRanking');
 
   if (window.innerWidth <= 768) {
-      // Si la pantalla es pequeña, oculta el elemento y muestra el botón 👑
       miDiv.style.display = "none";
       miDiv.style.left = "initial";
       let elemento = document.getElementById("btnModalCont");
@@ -563,7 +542,6 @@ function animarModal(bodyCnt,titleCnt,btnAccept=null,btnCancel=null){
 
   var modalAnimation = new bootstrap.Modal(document.getElementById('modalRanking'));
   var btnFin="<button type='button' class='btn btn-secondary' data-bs-dismiss='modal' id='finPartida'>Finalizar</button>";
-        // Accede al elemento del modal y aplica la clase
     modalAnimation._element.classList.add('rotate-modal');
     
     setTimeout(() => {
@@ -575,7 +553,6 @@ function animarModal(bodyCnt,titleCnt,btnAccept=null,btnCancel=null){
       
       }
       else if(btnCancel==null){
-        //qui boton con id finalizar
         btnGuardar.innerHTML="";
         cancelar.innerHTML="<button type='button' class='btn btn-secondary' data-bs-dismiss='modal' id='finalizar'>Finalizar</button>";
       }
